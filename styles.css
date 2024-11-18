@@ -1,0 +1,49 @@
+#gridContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #759FBC;
+    width: 600px;
+    justify-content: center;
+}
+
+.gridRow{
+    display: flex;
+    position: relative;
+    width: fit-content;
+}
+
+.gridCol{
+    position: relative;
+    display: inline;
+    border: 1px solid black;
+    align-content: center;
+    background-color: white;
+    /* --height: 40px;
+    height: var(--height);
+    width: var(--height); */
+}
+
+.color-picker{
+    padding: 15px;
+}
+
+html{
+    background-color: #B9B8D3;
+    color: #463730;
+    font-family: Arial;
+}
+
+#settings{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#grid{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    justify-self: center;
+}
